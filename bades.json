@@ -1,0 +1,124 @@
+{
+  "groups": [
+    {
+      "borderColor": "#FF858283",
+      "color": "#FF6B6B",
+      "id": "gv",
+      "isExpanded": true,
+      "name": "Visual"
+    },
+    {
+      "borderColor": "#00000000",
+      "color": "#45B7D1",
+      "id": "ga",
+      "isExpanded": true,
+      "name": "Audio"
+    }
+  ],
+  "filters": [
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-dv",
+      "imageURL": "https://raw.githubusercontent.com/thenbhdIum/badges/main/images/Dolby_Vision.png",
+      "isEnabled": true,
+      "name": "DV",
+      "pattern": "(?i)\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-hdr10p",
+      "imageURL": "https://raw.githubusercontent.com/thenbhdIum/badges/main/images/HDR10_plus.png",
+      "isEnabled": true,
+      "name": "HDR10+",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-hdr10",
+      "imageURL": "https://raw.githubusercontent.com/thenbhdIum/badges/main/images/HDR10.png",
+      "isEnabled": true,
+      "name": "HDR10",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-hdr",
+      "imageURL": "https://raw.githubusercontent.com/thenbhdIum/badges/main/images/HDR.png",
+      "isEnabled": true,
+      "name": "HDR",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-imax-e",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX-enhanced.png",
+      "isEnabled": true,
+      "name": "IMAX Enhanced",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bimax[\\s._-]?enhanced\\b)(?=.*(?:hdr[\\s._-]?10(?:[\\s._-]?(?:\\+|plus|p))?|\\bhdr\\b))(?=.*\\bdts(?:[-_.: ]?x|[-_.: ]?hd(?:[-_.: ]?ma)?)\\b)",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "gv",
+      "id": "v-imax",
+      "imageURL": "https://raw.githubusercontent.com/9mousaa/BetterFormatter/main/images/IMAX.png",
+      "isEnabled": true,
+      "name": "IMAX",
+      "pattern": "(?i)^(?=.*\\bIMAX\\b)(?!(?=.*\\bimax[\\s._-]?enhanced\\b)(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*(?:hdr[\\s._-]?10(?:[\\s._-]?(?:\\+|plus|p))?|\\bhdr\\b))(?=.*\\bdts(?:[-_.: ]?x|[-_.: ]?hd(?:[-_.: ]?ma)?)\\b))",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "ga",
+      "id": "a-dtsx",
+      "imageURL": "https://raw.githubusercontent.com/thenbhdIum/badges/main/images/dts_x.png",
+      "isEnabled": true,
+      "name": "DTS:X",
+      "pattern": "(?i)\\bdts[-_.: ]?x\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    },
+    {
+      "borderColor": "#00000000",
+      "groupId": "ga",
+      "id": "a-at",
+      "imageURL": "https://raw.githubusercontent.com/thenbhdIum/badges/main/images/Dolby_Atmos.png",
+      "isEnabled": true,
+      "name": "Atmos",
+      "pattern": "(?i)\\batmos\\b",
+      "tagColor": "#00000000",
+      "tagStyle": "filled",
+      "textColor": "#FFFFFF",
+      "type": "filter"
+    }
+  ]
+}
